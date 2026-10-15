@@ -9,7 +9,7 @@ import yt_dlp
 
 # --- НАСТРОЙКИ ---
 # Токен берем из переменных окружения (на хостинге так безопаснее)
-BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+BOT_TOKEN = os.environ.get("8983044387:AAGPxTd_XLeWIFEjyCqZh_96EP50FoQQvtE")
 if not BOT_TOKEN:
     raise ValueError("Не задан TELEGRAM_TOKEN в переменных окружения!")
 
